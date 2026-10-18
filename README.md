@@ -22,7 +22,10 @@ course (UMN, Spring 2026) to study how temperature relates to migration.
 4. Reconcile county FIPS changes, merge, run consistency checks
 
 ## Status
-Work in progress; validation checks are ongoing. Confirming that all climate data is being counted for exactly one county and adding additional in-code validation.
+Work in progress; validation checks are ongoing. 
+- Confirming that all climate data is being counted for exactly one county.
+- Confirming that correct ACS 2009 code is being used for Civilian Population in Labor Force.
+- Adding more in-code validation.
 
 ## To run
 Open the .Rproj, put the raw files in data/raw/, run code/01_build_dataset.R.
